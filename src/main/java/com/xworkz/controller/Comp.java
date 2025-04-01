@@ -41,6 +41,7 @@ public class Comp {
     public String onSend(String email){
         System.out.println(email);
         sendMailService.sendmail(email);
+        System.out.println("saved");
         return "index.jsp";
     }
 
